@@ -1,9 +1,0 @@
-name: 'Custom Image Style'
-type: module
-description: 'Provides custom image style services.'
-core_version_requirement: ^10
-package: Custom
-dependencies:
-  - drupal:file
-  - drupal:image
-  - drupal:media

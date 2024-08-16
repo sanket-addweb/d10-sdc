@@ -1,9 +1,0 @@
-uuid: fc4791e7-3e1a-49fd-8ba0-c5b0fba8d74a
-langcode: en
-status: true
-dependencies: {  }
-name: 'Project category'
-vid: project_category
-description: null
-weight: 0
-new_revision: false

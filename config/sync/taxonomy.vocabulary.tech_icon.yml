@@ -1,9 +1,0 @@
-uuid: 9e34e2e4-5c84-4791-9f44-2a4f28902e81
-langcode: en
-status: true
-dependencies: {  }
-name: 'Tech icon'
-vid: tech_icon
-description: null
-weight: 0
-new_revision: false

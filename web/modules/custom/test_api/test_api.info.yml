@@ -1,8 +1,0 @@
-name: 'My Custom API'
-type: module
-description: 'Provides a custom API for creating and updating nodes.'
-core_version_requirement: ^8 || ^9 || ^10
-package: Custom
-dependencies:
-  - drupal:rest
-  - drupal:serialization

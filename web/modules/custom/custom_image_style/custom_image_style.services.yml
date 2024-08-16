@@ -1,4 +1,0 @@
-services:
-  custom_image_style.image_style_service:
-    class: 'Drupal\custom_image_style\Service\ImageStyleService'
-    arguments: ['@entity_type.manager', '@file_url_generator']
