@@ -1,0 +1,22 @@
+uuid: eec4b9e4-ba94-436d-835e-bda0a1d49f4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quote
+    - paragraphs.paragraphs_type.testimonials_section
+  module:
+    - text
+id: paragraph.testimonials_section.field_quote
+field_name: field_quote
+entity_type: paragraph
+bundle: testimonials_section
+label: Quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

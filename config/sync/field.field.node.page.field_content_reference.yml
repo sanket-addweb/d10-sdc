@@ -9,6 +9,7 @@ dependencies:
     - paragraphs.paragraphs_type.count_section
     - paragraphs.paragraphs_type.portfolio_section
     - paragraphs.paragraphs_type.services_section
+    - paragraphs.paragraphs_type.testimonials_section
   module:
     - entity_reference_revisions
 id: node.page.field_content_reference
@@ -29,6 +30,7 @@ settings:
       count_section: count_section
       portfolio_section: portfolio_section
       services_section: services_section
+      testimonials_section: testimonials_section
     negate: 0
     target_bundles_drag_drop:
       content_with_image:
@@ -52,4 +54,7 @@ settings:
       tech_details:
         weight: 8
         enabled: false
+      testimonials_section:
+        weight: 16
+        enabled: true
 field_type: entity_reference_revisions
