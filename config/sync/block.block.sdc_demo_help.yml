@@ -1,0 +1,22 @@
+uuid: a492efe5-2d9c-4a91-a7d7-f785a6acc712
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sdc_demo
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: sdc_demo_help
+theme: sdc_demo
+region: sidebar_first
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

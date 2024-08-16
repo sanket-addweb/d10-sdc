@@ -1,0 +1,10 @@
+uuid: 431e4e69-9c51-45f3-acd6-77182d410416
+langcode: en
+status: true
+dependencies: {  }
+id: count_section_data
+label: 'Count section data'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

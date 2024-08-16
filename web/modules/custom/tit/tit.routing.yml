@@ -1,0 +1,7 @@
+tit.page:
+  path: '/tit/page'
+  defaults:
+    _title: 'Interface trasnslation page'
+    _controller: '\Drupal\tit\Controller\TitController::build'
+  requirements:
+    _permission: 'access content'

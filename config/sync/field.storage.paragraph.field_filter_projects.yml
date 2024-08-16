@@ -1,0 +1,20 @@
+uuid: 6c5fb57a-bb50-468c-8043-910ea9357cf1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_filter_projects
+field_name: field_filter_projects
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

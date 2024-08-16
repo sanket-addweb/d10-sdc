@@ -1,0 +1,13 @@
+{# Tech description component #}
+{%
+  set classes = [
+    'bx',
+    icon_class ? 'bx-' ~ icon_class|lower|replace({' ': '-'}) : 'bx-fingerprint'
+  ]
+%}
+
+<div class="icon-box">
+  <div class="icon"><i class="{{ classes|join(" ") }}"></i></div>
+  <h4 class="title"><a href="">{{ tech_title }}</a></h4>
+  <p class="description">{{ tech_description }}</p>
+</div>

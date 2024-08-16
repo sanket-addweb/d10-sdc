@@ -1,0 +1,22 @@
+name: Tech description
+props:
+  type: object
+  required:
+    - service_data_title
+  properties:
+    service_data_title:
+      type: string
+      title: Service data title
+      description: Title of service data
+    service_data_description:
+      type: string
+      title: Service data description
+      description: Description of service data
+    icon_class:
+      type: string
+      title: Icon Class
+      description: Icon class based on services
+    icon_color:
+      type: string
+      title: Icon color
+      description: "# value of color"

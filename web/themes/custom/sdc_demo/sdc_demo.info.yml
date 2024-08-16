@@ -1,0 +1,20 @@
+name: SDC demo theme
+type: theme
+'base theme': stable9
+hidden: false
+core_version_requirement: ^9 || ^10 || ^11
+libraries:
+  - core/drupal
+  - sdc_demo/global-styling
+regions:
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  banner: Banner
+  breadcrumb: Breadcrumbs
+  highlighted: 'Highlighted'
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  copyright: Copyright
+  hidden: Hidden

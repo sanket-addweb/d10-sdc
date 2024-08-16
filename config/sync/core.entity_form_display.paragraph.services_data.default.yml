@@ -1,0 +1,52 @@
+uuid: 34ba3d8a-fb1f-49ed-877b-d4eef973d322
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.services_data.field_description
+    - field.field.paragraph.services_data.field_icon_class
+    - field.field.paragraph.services_data.field_icon_color
+    - field.field.paragraph.services_data.field_title
+    - paragraphs.paragraphs_type.services_data
+  module:
+    - color_field
+    - text
+id: paragraph.services_data.default
+targetEntityType: paragraph
+bundle: services_data
+mode: default
+content:
+  field_description:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon_class:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon_color:
+    type: color_field_widget_html5
+    weight: 3
+    region: content
+    settings:
+      show_extra: false
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,40 @@
+uuid: a5bcaea1-9881-4775-855b-c7092eb3d8c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_count_data
+    - paragraphs.paragraphs_type.count_section
+    - paragraphs.paragraphs_type.count_section_data
+  module:
+    - entity_reference_revisions
+id: paragraph.count_section.field_count_data
+field_name: field_count_data
+entity_type: paragraph
+bundle: count_section
+label: 'Count data'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      count_section_data: count_section_data
+    negate: 0
+    target_bundles_drag_drop:
+      content_with_image:
+        weight: 5
+        enabled: false
+      count_section:
+        weight: 6
+        enabled: false
+      count_section_data:
+        weight: 7
+        enabled: true
+      tech_details:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions
