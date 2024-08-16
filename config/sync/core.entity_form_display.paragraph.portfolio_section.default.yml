@@ -1,0 +1,52 @@
+uuid: dafa449a-15b8-489d-9788-da81feb921c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.portfolio_section.field_description
+    - field.field.paragraph.portfolio_section.field_filter_projects
+    - field.field.paragraph.portfolio_section.field_portfolio_project
+    - field.field.paragraph.portfolio_section.field_title
+    - paragraphs.paragraphs_type.portfolio_section
+  module:
+    - text
+id: paragraph.portfolio_section.default
+targetEntityType: paragraph
+bundle: portfolio_section
+mode: default
+content:
+  field_description:
+    type: text_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_filter_projects:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_portfolio_project:
+    type: entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

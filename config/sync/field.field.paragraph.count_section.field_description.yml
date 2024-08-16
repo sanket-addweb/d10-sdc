@@ -1,0 +1,22 @@
+uuid: 3725de32-23e8-467d-a151-8d5ffd7efcb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.count_section
+  module:
+    - text
+id: paragraph.count_section.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: count_section
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

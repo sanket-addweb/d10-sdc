@@ -1,0 +1,19 @@
+uuid: e04b9af7-4a98-48c8-917a-01c0a4e557d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_counter_name
+    - paragraphs.paragraphs_type.count_section_data
+id: paragraph.count_section_data.field_counter_name
+field_name: field_counter_name
+entity_type: paragraph
+bundle: count_section_data
+label: 'Counter name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

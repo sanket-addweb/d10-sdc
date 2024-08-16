@@ -1,0 +1,7 @@
+name: 'Test Interface transaltion'
+type: module
+description: 'Provide Interface translation examples and demo code.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - locale:locale

@@ -1,0 +1,42 @@
+uuid: c6a52d1f-fcf0-4f27-8ef8-64f58cfbcf24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.count_section.field_count_data
+    - field.field.paragraph.count_section.field_description
+    - field.field.paragraph.count_section.field_title
+    - paragraphs.paragraphs_type.count_section
+  module:
+    - entity_reference_revisions
+    - text
+id: paragraph.count_section.default
+targetEntityType: paragraph
+bundle: count_section
+mode: default
+content:
+  field_count_data:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

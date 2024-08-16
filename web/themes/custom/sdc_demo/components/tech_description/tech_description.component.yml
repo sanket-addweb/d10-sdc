@@ -1,0 +1,18 @@
+name: Tech description
+props:
+  type: object
+  required:
+    - tech_title
+  properties:
+    tech_title:
+      type: string
+      title: Tech title
+      description: Title of Tech
+    tech_description:
+      type: string
+      title: Tech description
+      description: Description of tech
+    icon_class:
+      type: string
+      title: Tech icon
+      description: Icon class based on Tech

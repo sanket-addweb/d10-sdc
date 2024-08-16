@@ -1,0 +1,22 @@
+uuid: dde15717-1956-4eb5-ad26-f4901af7be35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.portfolio_section
+  module:
+    - text
+id: paragraph.portfolio_section.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: portfolio_section
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

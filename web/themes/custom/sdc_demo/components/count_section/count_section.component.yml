@@ -1,0 +1,13 @@
+name: Tech description
+props:
+  type: object
+  required:
+    - count_number
+  properties:
+    count_number:
+      type: string
+      title: Count number
+      description: Number of count
+    counter_name:
+      type: string
+      title: Counter name

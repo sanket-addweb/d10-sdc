@@ -1,0 +1,20 @@
+uuid: 6037c4e7-e427-4375-a242-a29fb3d01afd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sdc_demo
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: sdc_demo_primary_admin_actions
+theme: sdc_demo
+region: highlighted
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

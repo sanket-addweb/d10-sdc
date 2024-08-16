@@ -1,0 +1,11 @@
+custom_image_style.generate_css:
+  path: '/generate-css/{media_id}/{image_style}/{selector}'
+  defaults:
+    _controller: 'Drupal\custom_image_style\Controller\CustomController::generateImageStyleCss'
+  requirements:
+    _permission: 'access content'
+    media_id: '\d+'
+    image_style: '[a-zA-Z_]+'
+    selector: '[a-zA-Z_]+'
+# hit url like http://lando-d10.lndo.site:8000/generate-css/1/test_crop/p
+              # http://lando-d10.lndo.site:8000/generate-css/1/thumbnai/p

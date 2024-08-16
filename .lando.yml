@@ -1,0 +1,16 @@
+name: lando-d10
+recipe: drupal10
+config:
+  webroot: web
+services:
+  pma:
+    type: phpmyadmin
+  # appserver:
+  #   build_as_root:
+  #     - apt-get update -y
+  #     - apt-get install clamav clamav-daemon -y
+  #     - echo "TCPSocket 3310" >> /etc/clamav/clamd.conf
+  #     - freshclam
+  #     - update-rc.d clamav-daemon enable
+  #   run_as_root:
+  #     - service clamav-daemon start

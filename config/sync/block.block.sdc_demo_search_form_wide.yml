@@ -1,0 +1,23 @@
+uuid: abbc9f56-a39d-4fef-a485-4ede9673bd5a
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - sdc_demo
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: sdc_demo_search_form_wide
+theme: sdc_demo
+region: nav_branding
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
